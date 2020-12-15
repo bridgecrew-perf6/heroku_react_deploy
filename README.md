@@ -7,7 +7,7 @@
 }
 
 # Start Script
-"start" : "next start -p $PORT",
+"start" : "react-scripts start -p $PORT",
 
 # Add Script
 "heroku-postbuild" : "npm run build"
